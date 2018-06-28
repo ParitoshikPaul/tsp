@@ -1,0 +1,135 @@
+/* ================================
+	ADMIN LOGIN PAGE STYLES
+	Skin Custom Login Page plugin
+=================================== */
+	html {
+		box-sizing: border-box;
+	}
+
+	*,
+	*:before,
+	*:after {
+		box-sizing: inherit;
+	}
+
+	a,
+	a img {
+		border: none; outline: none;
+	}
+
+	body.login {
+		height: auto; min-height: 100%;
+		font-family: 'Raleway', sans-serif; font-size: 13px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	body.login.pattern {
+		background-repeat: repeat;
+		background-size: auto;
+	}
+	
+	body.login h1 a {
+		height: auto;
+		background: none;
+		text-indent:0;
+	}
+
+	body.login #login {
+		padding: 100px 0 50px;
+	}
+
+	body.login #login h1 {
+		margin-bottom: 100px;
+	}
+
+	body.login #login h1 a {
+		padding: 0; width: auto;
+		font-size: 22px; text-transform: uppercase; letter-spacing: 4px;
+		background-size: contain; background-position: center top; background-repeat: no-repeat;
+	}
+
+	body.login #login h1 a .logo {
+		clear: both; display: block;
+		margin: 30px auto 0;
+		max-width: 100%; height: auto;
+	}
+
+	body.login form {
+		background: none; padding: 0;
+		box-shadow: none;
+	}
+
+	body.login form p {
+		margin-top: 2em;
+	}
+
+	body.login form label {
+		text-transform: uppercase; letter-spacing: 3px; font-size: 13px; font-weight: 500;
+	}
+
+	body.login input[type="text"],
+	body.login input[type="password"],
+	body.login input[type="email"],
+	body.login input#user_login,
+	body.login input#user_pass {
+		padding: 1em; margin: 0; margin-top: 0.8em;
+		box-shadow: none;
+		font-family: 'Raleway', sans-serif; font-size: 13px; letter-spacing: 3px;
+		background: #fff; border: 1px solid #373c47;
+	}
+
+	body.login input#user_login:-webkit-autofill,
+	body.login input#user_login:-webkit-autofill:hover,
+	body.login input#user_login:-webkit-autofill:focus,
+	body.login input#user_login:-webkit-autofill:active {
+		background-color: #fff !important;
+		-webkit-box-shadow: none !important ;
+		-webkit-text-fill-color: #373c47 !important;
+	}
+
+	body.login form p#reg_passmail,
+	body.login form p.forgetmenot {
+		float: none; margin-top: 1em;
+	}
+
+	body.login form p.forgetmenot label {
+		font-family: 'Raleway', sans-serif; font-size: 11px; text-transform: none; letter-spacing: normal; 
+	}
+
+	body.login #login form p.submit {
+		margin-top: 2em;
+	}
+
+	body.login #login input#wp-submit {
+		clear: both; display: block; float: none;
+		width: 100%; height: auto; padding: 1em;
+		text-shadow: none; text-transform: uppercase;
+		background: #373c47;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	body.login p#nav,
+	body.login p#backtoblog {
+		text-align: center;
+		font-family: 'Raleway', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 1px;
+	}
+
+	body.login p#backtoblog {
+		font-size: 12px;
+	}
+
+	body.login p#nav a:hover,
+	body.login p#nav a:active,
+	body.login p#backtoblog a:hover,
+	body.login p#backtoblog a:active {
+		text-decoration: underline;
+	}
+
+	body.login #login_error,
+	body.login .message {
+		border-left-color: #ff2955;
+	}

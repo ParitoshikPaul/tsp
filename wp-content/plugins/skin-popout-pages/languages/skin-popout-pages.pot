@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Skin Popout Pages 1.2\n"
+"POT-Creation-Date: 2017-11-25 20:15+0100\n"
+"PO-Revision-Date: 2017-11-25 20:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;_nx;esc_html__;esc_html_e;esc_html_x;"
+"esc_attr__;esc_attr_e;esc_attr_x;esc_attr_nx;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: single-popout.php:46
+msgid "Edit this popout"
+msgstr ""
+
+#: skin-popout-pages.php:16 skin-popout-pages.php:17 skin-popout-pages.php:19
+msgid "Popout page"
+msgstr ""
+
+#: skin-popout-pages.php:18 skin-popout-pages.php:25
+msgid "Popout pages"
+msgstr ""
+
+#: skin-popout-pages.php:20
+msgid "Add New"
+msgstr ""
+
+#: skin-popout-pages.php:21 skin-popout-pages.php:22
+msgid "New Popout page"
+msgstr ""
+
+#: skin-popout-pages.php:23
+msgid "Edit Popout page"
+msgstr ""
+
+#: skin-popout-pages.php:24
+msgid "View Popout page"
+msgstr ""
+
+#: skin-popout-pages.php:26
+msgid "Search Popout pages"
+msgstr ""
+
+#: skin-popout-pages.php:27
+msgid "Parent Popout pages:"
+msgstr ""
+
+#: skin-popout-pages.php:28
+msgid "No Popout pages found."
+msgstr ""
+
+#: skin-popout-pages.php:29
+msgid "No Popout pages found in Trash."
+msgstr ""
+
+#: skin-popout-pages.php:82
+#, php-format
+msgid "%1$s updated. <a href=\"%2$s\" target=\"_blank\">View %3$s</a>"
+msgstr ""
+
+#: skin-popout-pages.php:89
+msgid "Custom field updated."
+msgstr ""
+
+#: skin-popout-pages.php:90
+msgid "Custom field deleted."
+msgstr ""
+
+#: skin-popout-pages.php:92
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: skin-popout-pages.php:97
+#, php-format
+msgid "%2$s restored to revision from %1$s"
+msgstr ""
+
+#: skin-popout-pages.php:104
+#, php-format
+msgid "%1$s published. <a href=\"%2$s\" target=\"_blank\">View %3$s</a>"
+msgstr ""
+
+#: skin-popout-pages.php:112
+#, php-format
+msgid "%s saved."
+msgstr ""
+
+#: skin-popout-pages.php:117
+#, php-format
+msgid "%1$s submitted. <a href=\"%2$s\" target=\"_blank\">Preview %3$s</a>"
+msgstr ""
+
+#: skin-popout-pages.php:126
+#, php-format
+msgid ""
+"%1$s scheduled for: <strong>%2$s</strong>. <a href=\"%3$s\" target=\"_blank"
+"\">Preview %4$s</a>"
+msgstr ""
+
+#: skin-popout-pages.php:133
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: skin-popout-pages.php:139
+#, php-format
+msgid "%1$s draft updated. <a href=\"%2$s\" target=\"_blank\">Preview %3$s</a>"
+msgstr ""
+
+#: skin-popout-pages.php:176
+msgid "Options"
+msgstr ""
+
+#: skin-popout-pages.php:193
+msgid "Featured image position"
+msgstr ""
+
+#: skin-popout-pages.php:201
+msgid "top"
+msgstr ""
+
+#: skin-popout-pages.php:209
+msgid "right"
+msgstr ""
+
+#: skin-popout-pages.php:213
+msgid "Featured image shape"
+msgstr ""
+
+#: skin-popout-pages.php:221
+msgid "natural"
+msgstr ""
+
+#: skin-popout-pages.php:229
+msgid "circle"
+msgstr ""
+
+#: skin-popout-pages.php:233
+msgid "Featured image links to (insert URL):"
+msgstr ""
+
+#: skin-popout-pages.php:246
+msgid "Open link in new tab"
+msgstr ""
+
+#: skin-popout-pages.php:250
+msgid "Featured image for widget and special box"
+msgstr ""
+
+#: skin-popout-pages.php:251
+msgid "If no image is uploaded, featured image will be used."
+msgstr ""
+
+#: skin-popout-pages.php:269
+msgid "Upload image"
+msgstr ""
+
+#: skin-popout-pages.php:275
+msgid "Remove image"
+msgstr ""
+
+#: skin-popout-pages.php:282
+msgid "Auto popout"
+msgstr ""
+
+#: skin-popout-pages.php:290
+msgid "Show on site load"
+msgstr ""
+
+#: skin-popout-pages.php:292
+msgid "Show pop-out X seconds after the site loads"
+msgstr ""
+
+#: skin-popout-pages.php:300
+msgid "Show pop-out again in X hours"
+msgstr ""
+
+#: skin-popout-pages.php:314
+msgid "Do not show on Front Page"
+msgstr ""
+
+#: skin-popout-pages.php:316
+msgid ""
+"The options above control appearing of popout, when the site is visited by "
+"landing on any of its post, page, posts list etc. To bind popout to "
+"particular pages / category archives only, use the Advanced settings below."
+msgstr ""
+
+#: skin-popout-pages.php:318
+msgid "Advanced settings for auto popout"
+msgstr ""
+
+#: skin-popout-pages.php:326
+msgid "Show only on specific pages / category archives"
+msgstr ""
+
+#: skin-popout-pages.php:328
+msgid "Make this popout load on particular pages only."
+msgstr ""
+
+#: skin-popout-pages.php:329
+msgid "Select the pages on which you want this popout to show up."
+msgstr ""
+
+#: skin-popout-pages.php:363
+msgid "Make this popout load on particular category archives only."
+msgstr ""
+
+#: skin-popout-pages.php:364
+msgid "Select the category archives on which you want this popout to show up."
+msgstr ""

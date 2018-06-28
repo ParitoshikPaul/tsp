@@ -1,0 +1,221 @@
+/* ==============================================
+	TinyMCE EDITOR STYLES
+	Skin - Premium WordPress Theme, by NordWood
+================================================= */
+	.wp-editor span, .wp-editor object, .wp-editor iframe,
+	.wp-editor h1, .wp-editor h2, .wp-editor h3, .wp-editor h4, .wp-editor h5, .wp-editor h6,
+	.wp-editor p, .wp-editor a, .wp-editor ol, .wp-editor ul, .wp-editor li,
+	.wp-editor blockquote, .wp-editor cite, .wp-editor em, .wp-editor q, .wp-editor strike,
+	.wp-editor strong, .wp-editor sub, .wp-editor sup, .wp-editor caption,
+	.wp-editor table, .wp-editor tbody, .wp-editor tfoot, .wp-editor thead, .wp-editor tr, .wp-editor th, .wp-editor td {
+		margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline;
+		font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit;
+	}
+	
+	body.wp-editor {
+		background: #fff; color: #353535;
+		font-family: "Quicksand", Verdana;
+		font-size: 15px; line-height: 30px;
+	}
+	
+	.wp-editor h1,
+	.wp-editor h2,
+	.wp-editor h3,
+	.wp-editor h4,
+	.wp-editor h5,
+	.wp-editor h6 {
+		font-family: 'Quicksand', sans-serif; font-weight: 500;
+	}
+	
+	.wp-editor h1 {
+		font-size: 40px; line-height: 53px;
+	}
+
+	.wp-editor h2 {
+		font-size: 32px; line-height: 40px;
+	}
+
+	.wp-editor h3 {
+		font-size: 21px; line-height: 30px;
+	}
+
+	.wp-editor h4 {
+		font-size: 18px; line-height: 26px;
+	}
+
+	.wp-editor h5 {
+		font-size: 15px; line-height: 22px;
+	}
+
+	.wp-editor h6 {
+		font-size: 10px; line-height: 18px;
+		letter-spacing: 1px;
+	}
+	
+	.wp-editor blockquote {
+		font-size: 21px; font-weight: 500;
+		line-height: 30px;
+	}
+	
+	.wp-editor blockquote:before {
+		display: inline-block; float: left;
+		margin-right: 15px;
+		content: "\201D";
+	}
+	
+	.wp-editor blockquote p {
+		display: inline;
+	}
+	
+	.wp-editor > p a {
+		text-decoration: underline;
+	}
+
+	.wp-editor b,
+	.wp-editor strong {
+		font-weight: 600;
+	}
+
+	.wp-editor i,
+	.wp-editor q,
+	.wp-editor em {
+		font-style: italic;
+	}
+
+	.wp-editor small {
+		font-size: 80%;
+	}
+
+	.wp-editor sub,
+	.wp-editor sup {
+		position: relative; vertical-align: baseline;
+		font-size: 75%; line-height: 0;
+	}
+
+	.wp-editor sup {
+		top: -0.5em;
+	}
+
+	.wp-editor sub {
+		bottom: -0.25em;
+	}
+	
+	.wp-editor dt {
+		font-weight: 600;
+	}
+	
+	.wp-editor dd {
+		display: list-item; list-style: disc;
+		margin: 0 0 0 1.2em; padding: 0.5em;
+	}
+	
+	.wp-editor a {
+		color: inherit;
+		text-decoration: underline;
+	}
+	
+	.wp-editor table {
+		width: 100%;
+		border: 2px solid;
+	}
+	
+	.wp-editor table th,
+	.wp-editor table td {
+		padding: 5px 10px;
+		border: 1px solid;
+	}
+	
+	.wp-editor blockquote .quotation {
+		display: inline-block; float: right;
+		width: calc(100% - 70px);
+	}
+	
+	.wp-editor blockquote .quote-mark {
+		display: inline-block; float: left;
+		width: 50px; height: 32px;
+	}
+	
+	.wp-editor blockquote .quote-mark svg {
+		width: 50px; height: 32px;
+	}
+	
+	.wp-editor figure.alignleft,
+	.wp-editor img.alignleft {
+		float: left;
+		margin: 0.5em 1em 0 0;
+	}
+
+	.wp-editor figure.alignnone,
+	.wp-editor img.alignnone {
+		margin: 0;
+	}
+
+	.wp-editor figure.aligncenter,
+	.wp-editor img.aligncenter {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.wp-editor figure.alignright,
+	.wp-editor img.alignright {
+		float: right;
+		margin: 0.5em 0 0 1.5em;
+	}
+	
+	.wp-editor ul:first-child,
+	.wp-editor ol:first-child,
+	.wp-editor blockquote:first-child,
+	.wp-editor table:first-child,
+	.wp-editor dl:first-child,
+	.wp-editor p:first-child,
+	.wp-editor h1:first-child,
+	.wp-editor h2:first-child,
+	.wp-editor h3:first-child,
+	.wp-editor h4:first-child,
+	.wp-editor h5:first-child,
+	.wp-editor h6:first-child  {
+		margin-top: 0;
+	}
+	
+	.wp-editor > h1,
+	.wp-editor > h2,
+	.wp-editor > h3,
+	.wp-editor > h4,
+	.wp-editor > h5,
+	.wp-editor > h6  {
+		margin: 3rem 0 1rem;
+	}
+	
+	.wp-editor > blockquote,
+	.wp-editor > table,
+	.wp-editor > dl,
+	.wp-editor > p {
+		margin: 1.5em 0;
+	}
+	
+	.wp-editor ol,
+	.wp-editor ul {
+		margin: 0 1em;
+	}
+	
+	.wp-editor > ol,
+	.wp-editor > ul {
+		margin: 1.5em;
+	}
+	
+	.wp-editor li {
+		margin: 0.2em 0;
+	}
+	
+	.wp-editor iframe {
+		max-width: 100%;
+	}
+	
+	.wp-editor iframe[src*="mixcloud"] {
+		max-height: 120px;
+	}
+	
+/* 1.6.2 Loading */
+	.wp-editor .skin-embed-holder .content-loading {
+		display: none;	
+	}

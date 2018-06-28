@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Skin Featured Area 1.0\n"
+"POT-Creation-Date: 2017-11-25 20:12+0100\n"
+"PO-Revision-Date: 2017-11-25 20:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_nx;esc_html__;esc_html_e;esc_html_x;"
+"esc_attr__;esc_attr_e;esc_attr_x;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: skin-featured-area.php:33
+msgid "Featured Area"
+msgstr ""
+
+#: skin-featured-area.php:49
+msgid ""
+"Please scroll down to the \"Featured Image\" section to upload your photo."
+msgstr ""
+
+#: skin-featured-area.php:53
+msgid "Gallery images"
+msgstr ""
+
+#: skin-featured-area.php:87
+msgid "Add images"
+msgstr ""
+
+#: skin-featured-area.php:93
+msgid "Remove all images"
+msgstr ""
+
+#: skin-featured-area.php:106
+msgid "Video URL"
+msgstr ""
+
+#: skin-featured-area.php:115
+msgid "Audio URL"
+msgstr ""
+
+#: skin-featured-area.php:124
+msgid "Link (URL)"
+msgstr ""
+
+#: skin-featured-area.php:133
+msgid "Quote"
+msgstr ""
+
+#: skin-featured-area.php:139
+msgid "Author"
+msgstr ""

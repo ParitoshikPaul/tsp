@@ -1,0 +1,166 @@
+/* =============================
+	SKIN POPOUT STYLES
+	Skin Popout Pages plugin
+	Version: 1.0
+	Author: NordWood Themes
+================================ */
+	.clearfix:after {
+		display: table; clear: both; content: "";
+	}
+	
+	.round {
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
+	html.popout-active {
+		min-height: initial; overflow: hidden;
+	}
+
+	body.popout-active {
+		height: 100%; overflow: hidden;
+	}
+
+	.popout-holder-overlay {
+		position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+		width: 100%; min-height: 100%;
+		overflow-y: scroll; z-index: 11;
+		text-align: center;
+	}
+
+	.popout-holder-overlay.reveal {
+		transition: background 0.4s ease;
+		background: rgba( 0, 0, 0, 0.6 );
+	}
+
+	.popout-clone-holder {
+		position: absolute; left: 0; top: 0; z-index: -1;
+		display: inline-block; width: auto; max-width: 90%;
+		opacity: 0;
+		font-family: inherit; font-weight: inherit; font-size: inherit; color: inherit;
+	}
+
+	.popout-holder {
+		position: relative; display: inline-block;
+		width: auto; max-width: 90%; margin: 0 auto; margin-top: 6%;
+		z-index: 11;
+		font-family: inherit; font-weight: inherit; font-size: inherit; color: inherit;	
+		transition: background 0.2s ease;
+		background: none;
+	}
+
+	.popout-holder.reveal {
+		transition: background 0.3s ease 0.5s;
+		background: #fff;
+	}
+
+	.popout-holder .close-popout {
+		position: absolute; top: -15px; right: -15px; width: 50px; height: 50px;
+		display: inline-block; z-index: 1;
+		background: #181818;
+		text-align: center;
+		vertical-align: middle; line-height: 50px;
+		cursor: pointer;
+		transition: opacity 0.4s ease;
+		opacity: 0;
+	}
+
+	.popout-holder .close-popout.reveal {
+		transition: opacity 0.4s ease 1s;
+		opacity: 1;
+	}
+
+	.popout-holder .close-popout svg {
+		display: inline-block; width: 16px; height: 16px;
+		vertical-align: -3px;
+	}
+
+	.popout-holder .close-popout .svg-fill {
+		fill: #fff;
+	}
+
+	.popout-clone-wrapper {
+		overflow: hidden;
+	}
+
+	.popout-wrapper {
+		overflow: hidden;
+		transition: opacity 0.4s ease;
+		background: none;
+		opacity: 0;
+	}
+
+	.popout-wrapper.reveal {
+		transition: opacity 0.5s ease 1s;
+		opacity: 1;
+	}
+
+	.popout {
+		position: relative;
+		padding: 0; margin: 0;
+	}
+
+	.popout-content:not(:empty) {
+		padding: 50px 50px 70px;
+	}
+
+	.popout-featured-image {
+		background-position: center; background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.popout-featured-image a {
+		display: block; width: 100%; height: 100%;
+	}
+
+	.popout.img-circle .popout-featured-image {
+		margin: 30px auto 0; overflow: hidden;
+		width: 256px; height: 256px;
+		border-radius: 50%;
+	}
+
+	.popout.img-circle.img-only .popout-featured-image {
+		margin: 0; display: block;
+	}
+
+	.popout .edit-link {
+		position: absolute; right: 0; bottom: 0; z-index: 1;
+		display: inline-block;
+	}
+	
+@media only screen and (min-width:1024px) {
+	.popout.img-right .popout-featured-image {
+		display: inline-block; width: 50%;
+	}
+	
+	.popout.img-right:not(.img-circle) .popout-featured-image {
+		float: right;
+	}
+	
+	.popout.img-circle .popout-featured-image {
+		margin: 70px auto 0;
+		width: 308px; height: 308px;
+	}
+	
+	.popout.img-right .popout-content {
+		display: inline-block; width: 50%; float: left;
+	}
+}
+
+@media only screen and (min-width:1180px) {
+	.popout-holder {
+		margin: 75px auto 0;
+	}
+
+	.popout-holder-overlay {
+		width: calc(100% + 20px);
+	}
+
+	.popout:not(.img-right) .popout-content:not(:empty) {
+		padding: 50px 160px 70px;
+	}
+	
+	.popout:not(.img-only) {
+		width: 900px;
+	}
+}

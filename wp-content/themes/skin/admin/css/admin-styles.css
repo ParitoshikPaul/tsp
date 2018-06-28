@@ -1,0 +1,22 @@
+/* ================================================
+	ADMIN STYLES
+	Skin - Premium WordPress Theme, by NordWood
+=================================================== */
+	table.skin-img-row {
+		width: 100%;
+		max-width: 160px;
+	}
+	
+	.skin-img-row td {
+		position: relative;
+		padding: 0; height: 46px;
+		background-position: center; background-repeat: no-repeat; background-size: cover;
+	}
+	
+	.skin-img-row span {
+		position: absolute; left: 0; bottom: 0;		
+		padding: 2px 4px;
+		background: rgba(0, 0, 0, 0.3); color: #fff;
+		font-size: 10px; text-transform: uppercase;
+	}
+	

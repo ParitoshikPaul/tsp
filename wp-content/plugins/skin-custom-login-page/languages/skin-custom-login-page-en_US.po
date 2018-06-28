@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Skin Custom Login Page 2.0\n"
+"POT-Creation-Date: 2017-11-25 20:08+0100\n"
+"PO-Revision-Date: 2017-11-25 20:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html__;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: skin-custom-login-page.php:17
+msgid "on"
+msgstr ""
+
+#: skin-custom-login-page.php:84 skin-custom-login-page.php:103
+msgid "Skin login page"
+msgstr ""
+
+#: skin-custom-login-page.php:97
+msgid "Skin Custom Login Page"
+msgstr ""
+
+#: skin-custom-login-page.php:111
+msgid "Title"
+msgstr ""
+
+#: skin-custom-login-page.php:126
+msgid "Logo image"
+msgstr ""
+
+#: skin-custom-login-page.php:127
+msgid "To be placed below the title"
+msgstr ""
+
+#: skin-custom-login-page.php:142
+msgid "Background"
+msgstr ""
+
+#: skin-custom-login-page.php:147
+msgid "Image"
+msgstr ""
+
+#: skin-custom-login-page.php:148
+msgid "Pattern"
+msgstr ""
+
+#: skin-custom-login-page.php:149
+msgid "Solid color"
+msgstr ""
+
+#: skin-custom-login-page.php:162
+msgid "Background image"
+msgstr ""
+
+#: skin-custom-login-page.php:178
+msgid "Background color"
+msgstr ""
+
+#: skin-custom-login-page.php:194
+msgid "Text color"
+msgstr ""
+
+#: skin-custom-login-page.php:209
+msgid "Fields background"
+msgstr ""
+
+#: skin-custom-login-page.php:224
+msgid "Fields background opacity (%)"
+msgstr ""

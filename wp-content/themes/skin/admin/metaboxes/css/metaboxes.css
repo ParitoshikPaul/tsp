@@ -1,0 +1,89 @@
+/* ================================================
+	METABOXES STYLES
+	Skin - Premium WordPress Theme, by NordWood
+=================================================== */
+	.skin-metabox-section {
+		margin-bottom: 1em;
+	}
+
+	.skin-metabox-section fieldset {
+		display: block; margin-top: 1em;
+	}
+
+	.skin-metabox-section fieldset:after {
+		display: table; clear: both; content: "";
+	}
+
+	.skin-metabox-section h5,
+	.skin-metabox-section h6 {
+		margin-bottom: 0.5em; font-weight: 600;
+	}
+
+	.skin-metabox-section h5 {
+		font-size: 1.1em;
+	}
+
+	.skin-metabox-section h6 {
+		font-size: 0.94em;
+	}
+	
+	.skin-metabox-section label {
+		display: block; margin-top: 1em;
+	}
+
+	.skin-metabox-section label h5 {
+		margin: 0;
+	}
+	
+	.skin-metabox-section input[type="radio"] + label,
+	.skin-metabox-section input[type="checkbox"] + label {
+		display: inline-block; margin: 0 2em 0 0; vertical-align: middle;
+	}
+
+	.skin-metabox-section input[type="radio"],
+	.skin-metabox-section input[type="checkbox"] {
+		margin: 0;
+	}
+
+	.skin-metabox-section input[type="radio"] {
+		display: inline-block; vertical-align: middle;
+	}
+
+	.skin-metabox-section input[type="radio"] + label {
+		display: inline-block; margin: 0 2em 0 0; vertical-align: middle;
+	}
+
+	.skin-metabox-section input[type="number"],
+	.skin-metabox-section input[type="text"] {
+		margin-bottom: 1em;
+	}
+
+	.skin-metabox-section .skin-cat {
+		display: inline-block; margin: 5px;
+		padding: 5px 10px;
+		background: #e8e8e8;
+		border-radius: 5px;
+		overflow: hidden;
+		cursor: pointer;
+	}
+
+	.skin-metabox-section .skin-cat[data-cat-on=on] {
+		background: #f18597; color: #fff;
+	}
+	
+	.slider-featured-ctrl {
+		display: none;
+	}
+
+	.skin-metabox-section .skin-page {
+		display: inline-block; margin: 5px;
+		padding: 5px 10px;
+		background: #e8e8e8;
+		border-radius: 5px;
+		overflow: hidden;
+		cursor: pointer;
+	}
+
+	.skin-metabox-section .skin-page[data-page-on=on] {
+		background: #ff2955; color: #fff;
+	}

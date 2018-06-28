@@ -1,0 +1,49 @@
+/* ===========================
+	STYLES FOR MCE BUTTONS
+	Skin Shortcodes plugin
+	Version: 1.0
+	Author: NordWood Themes
+============================== */
+	i.nordwood-button-icon {
+		background-image: url('../img/nordwood-button.png');
+	}
+	
+	.wp-editor .skin-sc-wrapper {
+		padding: 1em;
+		background: linear-gradient( 125deg, #f4d7de, #cecfe7 );
+		color: #353535;
+		font-family: monospace;
+		text-align: center;
+		line-height: 1.5em;
+	}
+
+	.wp-editor .skin-sc-wrapper h6 {
+		margin: 0; padding: 0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	.wp-editor .skin-sc-wrapper p {
+		margin: 0; padding: 0;
+	}
+
+	.wp-editor .skin-sc-wrapper .err {
+		color: #f00;
+	}
+
+	.wp-editor .skin-sc-wrapper .wave {
+		display: inline-block; margin: 10px auto 0;
+		width: 42px; height: 42px;
+		border-radius: 50%; overflow: hidden;
+		background: #fff;
+		text-align: center;
+		font-size: 42px; line-height: 36px;
+	}
+
+	.wp-editor .skin-sc-wrapper .wave.ver {
+		transform: rotate( 90deg );
+	}
+
+	.wp-editor .skin-sc-wrapper .wave:after {		
+		content: "\2248";
+	}

@@ -1,0 +1,213 @@
+/* ===================================================
+	CUSTOMIZER STYLES
+	Skin - Premium WordPress Theme, by NordWood
+====================================================== */
+	.clearfix:after {
+		display: table; clear: both;
+		content: "";
+	}
+
+	.va-middle {
+		vertical-align: middle; overflow: hidden;
+	}
+
+	.va-middle:before {
+		display: inline-block;
+		height: 100%; vertical-align: middle;
+		content: "";
+	}
+
+	.va-middle > * {
+		display: inline-block; vertical-align: middle;
+	}
+	
+	#customize-control-header_textcolor {
+		display: none !important;
+	}
+	
+	.section-divider {
+		height: 1px; margin: 20px 0 30px;
+		background: #ccc;
+	}
+	
+	.customize-control,
+	.customize-control .title,
+	.customize-control-description {
+		margin: 0 0 1em 0;
+	}
+	
+	.customize-control .err *,
+	.customize-control .err {
+		color: #f00;
+	}
+	
+	.customize-control-description.err {
+		font-style: normal;
+	}
+
+	.customize-control h3 {
+		margin: 2em 0 1em;
+	}
+
+	.customize-control-text {
+		margin-bottom: 1em;
+	}
+
+	.customize-control .title:empty,
+	.customize-control h3:empty,
+	.customize-control-text:empty,
+	.customize-control-description:empty {
+		margin: 0;
+	}
+	
+/* Typography controls */
+	.skin-typo-fieldset {
+		margin-top: 10px;
+	}
+	
+	.skin-typo-fieldset.half {
+		display: inline-block; width: 48%;
+	}
+	
+	.skin-typo-fieldset.half select {
+		width: 90%;
+	}
+	
+	.customize-control .skin-typo-label {
+		display: block;
+	}
+	
+/* Social profiles controls */
+	.skin-sharing-links-choices,
+	.skin-social-profiles-choices {
+		position: relative;
+		border-top: 1px solid #ccc; border-left: 1px solid #ccc;
+		width: 100%;
+	}
+	
+	.skin-sharing-links-icon,
+	.skin-social-profiles-icon {
+		display: inline-block; float: left;
+		width: 42px; height: 42px;
+		line-height: 42px; vertical-align: middle;
+		border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;
+		background: #fff;
+		text-align: center;
+		cursor: pointer;
+	}
+	
+	.skin-sharing-links-icon svg,
+	.skin-social-profiles-icon svg {
+		width: 18px; height: 14px;
+	}
+	
+	.skin-sharing-links-icon:not([data-is-active='on']) circle,
+	.skin-sharing-links-icon:not([data-is-active='on']) rect,
+	.skin-sharing-links-icon:not([data-is-active='on']) polygon,
+	.skin-sharing-links-icon:not([data-is-active='on']) path,
+	.skin-social-profiles-icon:not([data-has-profile='active']) circle,
+	.skin-social-profiles-icon:not([data-has-profile='active']) rect,
+	.skin-social-profiles-icon:not([data-has-profile='active']) polygon,
+	.skin-social-profiles-icon:not([data-has-profile='active']) path {
+		fill: rgba( 0, 0, 0, 0.2 );
+	}
+	
+	.skin-social-profiles-popout {
+		display: none;
+		position: absolute; left: -1px; top: -1px; z-index: 1;
+		width: calc(100% + 1px); height: calc(100% + 1px); padding: 20px;
+		box-sizing: border-box;
+		background: #fff;
+	}
+	
+	.skin-social-profiles-popout label {
+		display: block;
+		padding-bottom: 20px;
+		font-weight: 600; font-size: 15px;
+	}
+	
+	.skin-social-profiles-popout textarea {
+		width: 100%;
+	}
+	
+	.skin-social-profiles-popout .skin-close-button {
+		position: absolute; top: -8px; right: -8px; z-index: 2;
+		display: inline-block; width: 24px; height: 24px;
+		line-height: 20px; vertical-align: middle;
+		background: #fff;
+		border: 1px solid #aaa;
+		border-radius: 50%;
+		text-align: center;
+		cursor: pointer;
+	}
+	
+	.skin-social-profiles-popout .skin-close-button svg {
+		display: inline-block; vertical-align: middle;
+		width: 10px; height: 10px;
+	}
+	
+	.skin-social-profiles-popout .skin-close-button .svg-fill {
+		fill: #bbb;
+	}
+	
+/* Custom radio and checkbox buttons */
+	.customize-control-radio label,
+	.customize-control-checkbox label {
+		margin-left: 0;
+	}
+	
+	.customize-control .customize-inside-control-row {
+		margin-left: 0;
+	}
+	
+	.customize-control-radio input[type="radio"],
+	.customize-control-checkbox input[type="checkbox"] {
+		position: absolute;
+		margin-left: -9999px;
+		visibility: hidden;
+	}
+	
+	.customize-control-radio .switch,
+	.customize-control-checkbox .switch {
+		position: relative;
+		display: inline-block; width: 40px; height: 20px;
+		float: right; margin-right: 0; padding: 2px;
+		background-color: #dddddd;
+		border-radius: 60px;
+		cursor: pointer;
+		outline: none; user-select: none;
+	}	
+	
+	.customize-control-radio .switch:after,
+	.customize-control-radio .switch:before,
+	.customize-control-checkbox .switch:after,
+	.customize-control-checkbox .switch:before {
+		position: absolute; top: 1px; left: 1px; bottom: 1px;
+		display: block;
+		content: "";
+	}	
+	
+	.customize-control-radio .switch:before,
+	.customize-control-checkbox .switch:before {
+		right: 1px;
+		background-color: #ddd;
+		border-radius: 30px;
+		transition: background 0.2s;
+	}	
+	
+	.customize-control-radio .switch:after,
+	.customize-control-checkbox .switch:after {
+		width: 23px;
+		background-color: #fff;
+		border-radius: 100%;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		transition: margin 0.2s;
+	}
+	
+	.chckd .switch:before {
+		background-color: #0085ba;
+	}
+	
+	.chckd .switch:after {
+		margin-left: 23px;
+	}

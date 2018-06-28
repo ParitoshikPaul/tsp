@@ -1,0 +1,624 @@
+/* =============================================
+	RTL STYLES
+	Skin - Premium WordPress Theme, by NordWood
+================================================ */
+/*	0.0 NORMALIZE
+=================== */
+	caption, th, td {
+		text-align: right;
+	}
+	
+/*	1.0 GENERAL
+================= */
+	dd {
+		margin: 0 1.2em 0 0;
+	}
+	
+/* 1.5 Edit link */
+	.edit-link a {
+		padding: 0 10px 3px 8px;
+	}
+	
+	.edit-link .text {
+		padding-left: 0; padding-right: 8px;
+	}
+	
+/* 1.6 Animations and effects */
+	svg.svg-border,
+	svg.svg-outline {
+		left: 0;
+	}
+	
+/* 1.6.3 Animated buttons */
+/* Animated link-button */
+	.skin-anim-bttn {
+		padding: 10px 30px 10px 25px;
+	}
+	
+	.skin-anim-bttn .line-holder {
+		left: auto; right: 0;
+		transform: translateX( 15px );
+	}
+	
+	.skin-anim-bttn .txt {
+		padding-left: 15px; padding-right: 10px;
+	}
+	
+	.skin-anim-bttn:active .txt,
+	.skin-anim-bttn:hover .txt {
+		padding-left: 0; padding-right: 25px;
+	}
+	
+/* 1.6.4 Animated text mask */
+	.masked-content .mask {
+		left: auto; right: 0;
+	}
+	
+	.masked-content .mask.to-left {
+		transform: translateX( -100% );
+	}
+	
+	.masked-content .masked-txt {
+		left: auto; right: 0;
+	}
+	
+	.masked-content .mask.to-left .masked-txt {
+		left: auto; right: 0;
+		transform: translateX( 100% );
+	}
+	
+/* 1.6.6 Icon bouncing effect */	
+	.self-shifter:hover {
+		transform: translateX( 5px );
+	}
+	
+/*	2.0 TOP BAR
+================= */
+/* 2.1 Top bar for mobile devices */
+	.top-bar .reading {
+		float: right;
+	}
+	
+	.progress {
+		left: auto; right: -100%;
+	}
+	
+/* 2.3 Mobile menu button & mobile menu overlay */	
+	.overlay-menu.mobile .main-menu > ul > li {
+		float: right;
+	}
+	
+	.overlay-menu.mobile .main-menu a {
+		padding: 0 20px 0 10px;
+	}
+	
+	.overlay-menu.mobile .menu-item-has-children > a .has-submenu-icon {
+		right: auto; left: 10px;
+	}
+	
+/*	3.0 SIDEBARS & WIDGETS
+============================ */	
+/* 3.2 Default & common widgets styles */
+	.widget_recent_entries ul,
+	.widget_nav_menu ul,
+	.widget_rss ul,
+	.widget_recent_comments ul,
+	.widget_meta ul,
+	.widget_pages ul {
+		margin-left: 0; margin-right: 20px;
+	}
+	
+	.widget_nav_menu ul.sub-menu,
+	.widget_rss ul.children,
+	.widget_recent_entries ul.children,
+	.widget_pages ul.children,
+	.widget_archive ul.children,
+	.widget_categories ul.children {
+		margin-left: 0; margin-right: 20px;
+	}
+	
+	.widget_categories li:before,
+	.widget_archive li:before {
+		margin-right: 0; margin-left: 10px;
+	}
+	
+	.widget_archive .qty,
+	.widget_categories .qty {
+		float: left;
+	}
+	
+/* 3.3 Search widget */
+	.widget_search .search-field {
+		float: right;
+	}
+	
+	.widget_search .search-submit {
+		float: left;
+	}
+
+/* 3.4 Calendar widget */
+	.widget_calendar tfoot td {
+		text-align: right;
+	}
+
+/* 3.10 Skin Popular/Latest posts */
+	.skin-widget-top-posts .tab {
+		float: right;
+	}
+	
+	.skin-widget-top-posts .tab:nth-child(2) {
+		padding-right: 20px;
+	}
+	
+	.skin-widget-top-posts .top-posts-slide {
+		float: right;
+	}
+	
+	.skin-widget-top-posts .order .line {
+		left: auto; right: 0;
+		transform-origin: top right;
+	}
+	
+	.skin-widget-top-posts .order .txt {
+		left: auto; right: 0;
+	}
+	
+	.skin-widget-top-posts tr:hover .order .txt {
+		left: auto; right: 0.6em;
+	}
+	
+	.skin-widget-top-posts .thumb {
+		right: auto; left: 0;
+	}
+	
+	.skin-widget-top-posts td:nth-child(2) {
+		padding-right: 15px;
+	}
+	
+/* 3.11 Skin Instagram widget */
+	.skin-widget-instagram .widget-title svg {
+		margin-right: 0; margin-left: 10px;
+	}
+	
+/* 3.11.1 Skin Instagram grid widget */	
+	.skin-widget-instagram-grid .item {
+		float: right;
+	}
+	
+	.skin-widget-instagram-grid .item:nth-child(3n+1) {
+		clear: right;
+	}
+	
+/*	4.0 POSTS & PAGES
+======================= */
+/* 4.2 Post header */
+	.page #main article.page .edit-link,
+	.single #main article.post .edit-link {
+		right: auto; left: 0;
+	}
+	
+	.single #main article.post .post-header .post-format-icon {
+		right: auto; left: 0;
+	}
+	
+	.single #main:not(.no-sidebar) article.post .post-header .share:not(:empty) {
+		text-align: right;
+	}
+	
+	.single #main:not(.no-sidebar) article.post .post-header .post-details:not(:empty) {
+		text-align: right;
+	}
+	
+	.single #main:not(.no-sidebar) article.post .post-header .share + .post-details {
+		text-align: left;
+	}
+
+/* 4.4 Post content */	
+	.page #main .drop-caps .post-content > p:first-of-type::first-letter,
+	.single #main .drop-caps .post-content > p:first-of-type::first-letter {
+		float: right; padding-right: 0; padding-left: 0.2em;
+	}
+	
+	.post-content blockquote .quotation {
+		float: left;
+	}
+	
+	.post-content blockquote .quote-mark {
+		float: right;
+	}
+	
+	.post-content img.alignleft {
+		float: left;
+		margin: 0.5em 2em 0.5em 0;
+	}
+	
+	.post-content figure.alignleft {
+		float: left;
+		margin: 0.5em 2em 0 0;
+	}
+
+	.post-content img.alignright {
+		float: right;
+		margin: 0.5em 0 0 2em;
+	}
+
+	.post-content figure.alignright {
+		float: right;
+		margin: 1.5em 0 0.5em 2em;
+	}
+	
+	.post-content .skin-shortcodes.share.left,
+	.post-content .skin-shortcodes.social-profiles.left {
+		float: left; margin: 0 1.5em 0 0;
+	}
+	
+	.post-content .skin-shortcodes.share.right,
+	.post-content .skin-shortcodes.social-profiles.right {
+		float: right; margin: 0 0 0 1.5em;
+	}
+	
+	.skin-gallery-thumbs .gallery-thumb {
+		float: right;
+	}
+
+/* 4.7 Post footer */
+	.single #main article.post .post-footer .tagcloud a {
+		float: right;
+	}
+	
+/* 4.9 Related posts */
+	.related-posts.carousel .related-header h3 {
+		float: right;
+		padding-right: 0; padding-left: 15px;
+	}
+	
+	.related-posts.carousel .related-header .nav {
+		float: left;
+	}
+
+	.related-posts.carousel .prev,
+	.related-posts.carousel .next {
+		float: right;
+	}
+
+	.related-posts.carousel .prev {
+		right: auto; left: 36px;
+	}
+	
+	.related-posts.carousel .related-content {
+		text-align: right;
+	}
+	
+/* 4.10 WP Comments */	
+	.wp-comments h3 svg {
+		margin-right: 0; margin-left: 15px;
+	}
+	
+	.wp-comments .comments-header .leave-comment {
+		float: left;
+	}
+	
+	.wp-comments .pingback .comment-edit-link {
+		float: left;
+	}
+	
+	.wp-comments .avatar-holder {
+		float: right;
+	}
+	
+	.wp-comments .comment-author {
+		float: right;
+	}
+	
+	.wp-comments .comment .comment-author {
+		margin-left: 0; margin-right: 20px;
+	}
+	
+	.wp-comments .edit-reply {
+		float: left;
+	}
+	
+	.wp-comments .comments-reply-button:empty + .comments-edit-button,
+	.wp-comments .comments-reply-button {
+		margin-left: 0; margin-right: 20px;
+	}
+	
+	.wp-comments .children {
+		margin-left: 0; margin-right: 40px;
+	}
+	
+	.wp-comments .comments-nav {
+		text-align: left;
+	}
+	
+	.wp-comments .comments-nav .prev {
+		padding-right: 0; padding-left: 10px;
+	}
+	
+	.wp-comments .comments-nav .next {
+		padding-left: 0; padding-right: 10px;
+	}
+	
+/*	5.0 BLOG FEATURED AREA
+============================ */
+/* 5.2 Enlarged post */
+	.enlarged-post .trendy-badge {
+		right: auto; left: 22px;
+	}
+	
+	.enlarged-post .edit-link {
+		right: auto; left: 0;
+	}
+	
+	.enlarged-post .post-header .post-format-icon {
+		right: auto; left: 0;
+	}
+	
+/* 5.3 Posts grid */	
+	.skin-posts-grid article .trendy-badge {
+		right: auto; left: 22px;
+	}
+	
+	.skin-posts-grid article .edit-link {
+		right: auto; left: 0;
+	}
+	
+/* 5.4 Posts slider */
+	.skin-posts-slider .slider-images .swiper-slide {
+		text-align: right;
+	}
+	
+	.skin-posts-slider .slider-images .swiper-slide.start {
+		transform: translateX( 0 );
+	}
+	
+	.skin-posts-slider .slider-images .swiper-slide-active {
+		margin-right: 0; margin-left: 50px;
+	}
+	
+	.skin-posts-slider .slider-images .trendy-badge,
+	.skin-posts-slider .slider-images .swiper-slide-active .trendy-badge {
+		right: auto; left: 22px;
+	}
+	
+	.skin-posts-slider .nav.prev {
+		right: calc(100% + 25px);
+	}
+	
+	.skin-posts-slider .nav.next {
+		left: calc(100% + 25px);
+	}
+
+/*	6.0 BLOG LAYOUT & POSTS LISTS
+=================================== */
+	#posts-list article.post .trendy-badge,
+	#posts-list article.post .sticky-badge {
+		right: auto; left: 22px;
+	}
+	
+	#posts-list article.post .sticky-badge + .trendy-badge {
+		right: auto; left: 46px;
+	}
+	
+	#posts-list article.post .edit-link {
+		right: auto; left: 0;
+	}
+	
+/* 6.1 Masonry posts list */	
+	#posts-list.masonry .masonry-item article.post.format-link .featured-media:not(:empty) {
+		float: right;
+		padding: 25px 25px 25px 0;
+	}
+
+	#posts-list.masonry .featured-gallery .img-wrapper {
+		float: right;
+	}
+	
+	#posts-list.masonry .masonry-item article.post.format-link .featured-media:not(:empty) + .post-header {
+		float: right;
+		text-align: right;
+	}
+	
+/* 6.2 Standard posts list */
+	#posts-list.standard-list article.post .post-content {
+		padding: 15px 15px 15px 30px;
+		text-align: right;
+	}
+	
+/* 6.3 Quick Search results */	
+	#quick-search-results .post-item .text {
+		padding-left: 0; padding-right: 20px;
+		text-align: right;
+	}
+	
+/* 6.4 Archives & search results */	
+	.archive-header .search-field {
+		float: right;
+	}
+	
+	.archive-header .search-submit {
+		float: left;
+	}
+	
+/*	7.0 PAGINATION
+==================== */
+/* 7.1 Standard pagination */
+	.posts-list-pagination ul.page-numbers li {
+		float: right;
+	}
+	
+	.posts-list-pagination .prev {
+		float: right;
+	}
+	
+	.posts-list-pagination .prev a {
+		padding-right: 0; padding-left: 10px;
+	}
+	
+	.posts-list-pagination .next {
+		float: left;
+	}
+	
+	.posts-list-pagination .next a {
+		padding-left: 0; padding-right: 10px;
+	}
+
+	.post-content .post-pagination .page-num {
+		float: right;
+	}
+	
+/*	10.0 MEDIA QUERIES
+======================== */
+@media only screen and (min-width:640px) {
+/* 10.4.7 Author's bio - min-width:640px */
+	.author-bio .text {
+		padding-left: 0; padding-right: 40px;
+		text-align: right;
+	}
+
+/* 10.5.3 Posts grid - min-width:640px */
+	.skin-posts-grid .post-smaller {
+		float: right;
+	}
+}
+
+@media only screen and (min-width:768px) {	
+/* 10.6.3 Quick Search results - min-width:768px */
+	#quick-search-results .post-item {
+		float: right;
+	}
+	
+/* 10.4.8 Related posts - min-width:768px */
+	.related-posts.carousel .related-post {
+		float: right;
+	}
+	
+/* 10.4.9 WP Comments - min-width:768px */
+	.wp-comments .children {
+		margin-left: 0; margin-right: 100px;
+	}
+	
+	.wp-comments .comments-header .leave-comment {
+		float: left;
+	}
+	
+/* 6.4 Archives & search results - min-width:768px */
+	.archive-header td:last-child > .content-pad {
+		margin-left: 0; margin-right: 4px;
+	}
+}
+
+@media only screen and (min-width:1280px) {
+/* 10.2.5 Desktop top bar - min-width:1280px */
+	.top-bar.desktop .top-holder {
+		text-align: left;
+	}
+	
+/* 10.2.5.2 Menu in desktop top bar - min-width:1280px */
+	.top-bar.desktop .main-menu {
+		text-align: right;
+	}
+	
+	.top-bar.desktop .main-menu > ul > li {
+		margin-right: 0; margin-left: 40px;
+	}
+	
+	.top-bar.desktop .main-menu > ul > li > a {
+		padding-left: 0; padding-right: 8px;
+	}
+	
+	.top-bar.desktop .main-menu > ul > li > a .line {
+		left: auto; right: 0;
+	}
+	
+	.top-bar.desktop .main-menu .sub-menu li {
+		padding-right: 30px;
+	}
+	
+	.top-bar.desktop .main-menu > ul > li .sub-menu {
+		left: auto; right: 0;
+	}
+	
+	.top-bar.desktop .main-menu .sub-menu .sub-menu {
+		left: auto; right: 100%;
+	}
+	
+	.top-bar.desktop .main-menu .sub-menu .sub-menu.inverse {
+		right: auto; left: 100%;
+	}
+	
+	.top-bar.desktop .main-menu .sub-menu a {
+		padding: 5px 0 5px 30px;
+	}
+	
+	.top-bar.desktop .main-menu .sub-menu a:before {
+		left: auto; right: -10px;
+	}
+	
+	.top-bar.desktop .main-menu .sub-menu a:hover:before {
+		transform: translateX( -10px );
+	}
+	
+	.top-bar.desktop .main-menu .sub-menu a:hover {
+		padding-left: 0; padding-right: 20px;
+	}
+	
+/* 10.2.5.5 Single post info & share icons in desktop top bar - min-width:1280px */	
+	.top-holder-single .reading {
+		float: left;
+	}
+	
+	.top-holder-single .related .heading {
+		padding-left: 0; padding-right: 30px;
+	}
+	
+/* 10.5.3 Posts grid - min-width:1280px */
+	.skin-posts-grid .post-larger {
+		float: right;
+	}
+	
+	.push-items.sidebar-right .skin-posts-grid .post-larger {
+		margin-left: 0; margin-right: 4px;
+	}
+	
+	.skin-posts-grid .post-smaller {
+		float: left; margin: 4px 0 0 0;
+	}
+	
+	.push-items.sidebar-left .skin-posts-grid .post-smaller {
+		margin-right: 0; margin-left: 4px;
+	}
+	
+	.skin-posts-grid .post-smaller-0 {
+		margin-top: 0;
+	}
+
+/* 10.5.4 Posts slider - min-width:1280px */
+	.skin-posts-slider .separator {
+		left: auto; right: 153px;
+	}
+	
+	.skin-posts-slider .slider-images {
+		float: right;
+	}
+	
+	.skin-posts-slider .slider-content {
+		text-align: right;
+	}
+	
+	.skin-posts-slider .slider-content .details {
+		float: right;
+		padding-right: 0; padding-left: 30px;
+		text-align: left;
+	}
+	
+	.skin-posts-slider .slider-content .post-title {
+		float: left;
+		padding-left: 0; padding-right: 30px;
+		text-align: right;
+	}
+	
+	.skin-posts-slider .slider-content .navigation {
+		margin-left: 0; margin-right: 110px;
+	}
+}
